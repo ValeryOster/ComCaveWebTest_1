@@ -7,4 +7,8 @@
         <servlet-name>HalloServlet</servlet-name>
         <servlet-class>de.oster.controller.HalloServlet</servlet-class>
     </servlet>
+    <servlet-mapping>
+        <servlet-name>HalloServlet</servlet-name>
+        <url-pattern>/HalloServlet</url-pattern>
+    </servlet-mapping>
 </web-app>

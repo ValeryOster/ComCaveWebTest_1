@@ -1,19 +1,29 @@
 
-<jsp:include page="header.jsp"/>
+<jsp:include page="template/header.jsp"/>
+
+        <li class="active"><a href="index.jsp">Home</a></li>
+        <li><a href="about.jsp">About</a></li>
+        <li><a href="contact.jsp">Contact</a></li>
+        <li><a href="formular.jsp">Formular</a></li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container-fluid -->
+</nav>
 
 <!-- Main component for a primary marketing message or call to action -->
 <div class="jumbotron">
-  <h1>Navbar example</h1>
-  <p>This example is a quick exercise to illustrate how the default, static navbar and fixed to top navbar work. It includes the responsive CSS and HTML, so it also adapts to your viewport and device.</p>
+  <h1>Java EE Projekt</h1>
   <p>
-    <a class="btn btn-lg btn-primary" href="../../components/#navbar" role="button">View navbar docs &raquo;</a>
+      Das ist ein Projekt in Rahmen ComCave Weiterbildung.
   </p>
+
 </div>
+</div> <!-- /container -->
 
 <h1>Hier ist Hauptseite.</h1>
 
 
-<jsp:include page="footer.jsp"/>
+<jsp:include page="template/footer.jsp"/>
 
 
 
